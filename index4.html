@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <center>
+    <div class="w-[607px] h-[428px] relative bg-white rounded-3xl shadow">
+      <button class="w-6 h-6 absolute top-4 right-4 "><img src="./Close.png" alt=""></button>
+      <div class="h-[88px] left-[132px] top-[148px] absolute flex-col justify-start items-start gap-2 inline-flex">
+        <div class="px-3.5 py-2 rounded-lg border border-[#88c1ba] justify-center items-center gap-[238px] inline-flex">
+          <label id="download-option1" class="text-[#006d81] text-sm font-semibold font-['Proxima Nova'] leading-tight">PDF File</label>
+          <div class="w-6 h-6 p-0.5 justify-center items-center inline-flex">
+            <input id="download-option1" type="radio" name="download-option" checked class="form-radio text-orange-500">
+          </div>
+        </div>
+        <div class="px-3 py-2 rounded-lg border border-[#88c1ba] justify-center items-center gap-[151px] inline-flex">
+          <label id="download-option" class="text-[#006d81] text-sm font-semibold font-['Proxima Nova'] leading-tight">Receive through Email</label>
+          <div id="download-option" class="w-6 h-6 p-0.5 justify-center items-center inline-flex">
+            <input id="download-option" type="radio" name="download-option" class="form-radio text-orange-500">
+          </div>
+        </div>
+      </div>
+      <div class="w-[227px] left-[190px] top-[84px] absolute text-center text-[#005666] text-base font-medium font-['Proxima Nova'] leading-snug">Download file as:</div>
+      <div class="w-[343px] left-[132px] top-[268px] absolute justify-between items-center inline-flex">
+        <div class="w-[167px] h-[52px] relative">
+          <div class="w-[167px] h-[52px] left-0 top-0 absolute rounded-[100px] text-[#b5b5b5] shadow border border-[#b5b5b5]v hover:bg-[#ff765b] hover:text-white">
+            <button class="w-[115px] left-[26px] top-[14px] absolute text-center  text-base font-semibold font-['Proxima Nova'] leading-normal">Cancel</button>
+          </div>
+          
+        </div>
+        <div class="w-[167px] h-[52px] relative">
+          <div class="w-[167px] h-[52px] left-0 top-0 absolute hover:bg-[#ff765b] text-[#b5b5b5] rounded-[100px] shadow border border-[#b5b5b5] hover:text-white">
+            <button class="w-[129px] left-[19px] top-[14px] absolute text-center m-auto text-base font-semibold font-['Proxima Nova'] leading-normal">Download</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </center>
+
+    
+</body>
+</html>
